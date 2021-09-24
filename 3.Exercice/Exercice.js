@@ -69,21 +69,18 @@ console.log("affichage du tableau avec +33",phone);
 
 // 👉 Le résultat doit être un nouveau tableau.
 
+var john =[{}]; 
+for (var i = 0; i < 1; i++ ){
+    
+    
+    if (contacts[i]){
+        john.push(contacts)
+        
 
-var admint = phone ; 
-admint
-for (var i = 0; i < contacts.length; i++ ){
-    console.log(contacts[i].admin
-        )
-    
-        if (contacts[i].prenom){
-            phone.push(contacts)
-            contacts[i].telephone = cellphone + contacts[i].telephone.slice(1)
-    
-            
-            
-        }
-   
+        contacts[i].admin = true
+        
+    }
+  
+  
 }
-
-console.log("admin",admint);
+console.log(john);
