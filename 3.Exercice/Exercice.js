@@ -48,7 +48,7 @@ for (var i = 0; i < contacts.length; i++ ){
 
 
 
-console.log("affichage du tableau avec +33",phone);
+
 
 
 
@@ -83,4 +83,4 @@ for (var i = 0; i < 1; i++ ){
   
   
 }
-console.log(john);
+console.log("admin true", john);
